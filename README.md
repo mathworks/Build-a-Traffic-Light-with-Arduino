@@ -2,7 +2,7 @@
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](update link when pushed to GitHub)
 
-<img width="556" height="312" alt="image" src="https://github.com/user-attachments/assets/bc26b708-e26c-4d30-8f77-5a4911f5f1ae"/> <img width="200" height="249" alt="image" src="https://github.com/user-attachments/assets/a7c387f3-942f-407a-ba16-e290c0b5987d" />
+<img width="278" height="156" alt="image" src="https://github.com/user-attachments/assets/bc26b708-e26c-4d30-8f77-5a4911f5f1ae"/> <img width="200" height="249" alt="image" src="https://github.com/user-attachments/assets/a7c387f3-942f-407a-ba16-e290c0b5987d" />
 
 This repository provides two hands-on MATLAB Live Scripts and starter Simulink models, designed to teach students how to model a traffic light as a state machine in Stateflow and Simulink. In the first set, the Live Script and accompanying starter Simulink model guides students through building a model of a traffic light only, demonstrating key Stateflow concepts. In the second set, the Live Script and accompanying starter model guide students through deploying the traffic light model on an Arduino board, using LEDs to represent traffic light bulbs. This interactive, hands-on activity provides students with an opportunity to practice embedded programming skills and code generation with MATLAB and Simulink.
 
