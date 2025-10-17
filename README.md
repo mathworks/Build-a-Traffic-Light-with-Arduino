@@ -1,6 +1,6 @@
 # Build a traffic light with Arduino
 
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](update link when pushed to GitHub)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/Build-a-Traffic-Light-with-Arduino&file=README.mlx)
 
 <img width="444" height="249" alt="image" src="https://github.com/user-attachments/assets/bc26b708-e26c-4d30-8f77-5a4911f5f1ae"/> <img width="200" height="249" alt="image" src="https://github.com/user-attachments/assets/a7c387f3-942f-407a-ba16-e290c0b5987d" />
 
