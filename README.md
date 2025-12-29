@@ -4,7 +4,7 @@
 
 <img width="444" height="249" alt="image" src="https://github.com/user-attachments/assets/bc26b708-e26c-4d30-8f77-5a4911f5f1ae"/> <img width="200" height="249" alt="image" src="https://github.com/user-attachments/assets/a7c387f3-942f-407a-ba16-e290c0b5987d" />
 
-This repository provides two hands-on MATLAB Live Scripts and starter Simulink models, designed to teach students how to model a traffic light as a state machine in Stateflow and Simulink. In the first set, the Live Script and accompanying starter Simulink model guides students through building a model of a traffic light only, demonstrating key Stateflow concepts. In the second set, the Live Script and accompanying starter model guide students through deploying the traffic light model on an Arduino board, using LEDs to represent traffic light bulbs. This interactive, hands-on activity provides students with an opportunity to practice embedded programming skills and code generation with MATLAB and Simulink.
+This repository provides two hands-on MATLAB Live Scripts and starter Simulink models, designed to teach students how to model a traffic light as a state machine in Stateflow and Simulink. In the first set, the Live Script and accompanying starter Simulink model guides students through building a model of a traffic light only, demonstrating key Stateflow concepts. In the second set, the Live Script and accompanying starter model guide students through deploying the traffic light model on an Arduino board, using LEDs to represent traffic light bulbs. In the third and final set, the Live Script and starter Simulink model guide students through building and deploying a model of a traffic light intersection on an Arduino board, with two sets of traffic lights, one of which is triggered off an ultrasonic distance sensor. This interactive, hands-on activity provides students with an opportunity to practice embedded programming skills and code generation with MATLAB and Simulink.
 
 ## Set-up
 **Required MathWorks® Products (https://www.mathworks.com)**
@@ -19,9 +19,12 @@ Requires MATLAB release R2025b or newer
 - Arduino Board (Uno or Mega)
 - USB Type A to B cable (Arduino to computer connection)
 - Small breadboard
-- 3 220 Ohm resistoers
-- 3 LEDs (ideally in traffic light colors)
+- 6 220 Ohm resistoers
+- 6 LEDs (ideally in traffic light colors)
+- 1 ultrasonic distance sensor
 - Connecting wires
+- Optional: road intersection printout 
+- Optional: Arduino traffic light modules instead of connecting individual LEDs to the Arduino board through connecting wires, resistors, and breadboard
 
 ## Instructions
 
@@ -34,6 +37,9 @@ Requires MATLAB release R2025b or newer
 7. From the "Implement Model Arduino" folder, open the "Traffic_Light_Arduino_Instructions.mlx" Live Script to follow the step by step instructions.
 8. Modify the "traffic_arduino_start.slx" starter Simulink model. Wire up the Arduino board to LEDs as instructed in the Live Script. Follow instructions to deploy the Simulink model on the Arduino board conneected to LEDs.
 9. If needed, review the completed version of the model in "traffic_arduino.slx".
+10. From the "Implement Model Arduino" folder, open the "Traffic_Light_Intersection_Arduino_Instructions.mlx" Live Script to follow the step by step instructions.
+11. Modify the "traffic_intersection_arduino_start.slx" starter Simulink model. Wire up the Arduino board to LEDs and ultrasonic distance sensor as instructed in the Live Script. Follow instructions to deploy the Simulink model on the Arduino board connected to LEDs and an ultrasonic distance sensor.
+12. If needed, review the completed version of the model in "traffic_intersection_arduino.slx".
 
 ## License
 
